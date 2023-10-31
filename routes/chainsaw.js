@@ -33,7 +33,7 @@ router.patch("/:id", chainsawController.patchAllChainsaw);
  * URL: localhost:3000/chainsaw/:id
  * Method: PUT
  */
-router.put("/",  chainsawController.putAllChainsaw);
+router.put("/:id",chainsawController.putAllChainsaw);
 
 /**
  * Delete books
